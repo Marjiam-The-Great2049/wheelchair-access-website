@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    color: #222;
+}
+
+/* Header */
+
+header {
+    background-color: #075985;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 20px;
+    font-size: 32px;
+}
+
+/* Navigation */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* Sections */
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #075985;
+}
+
+/* Search */
+
+input {
+    width: 70%;
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+}
+
+button {
+    padding: 14px 22px;
+    background-color: #075985;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c4a6e;
+}
+
+/* Accessible places */
+
+article {
+    background-color: #f0f9ff;
+    padding: 20px;
+    margin-top: 15px;
+    border-left: 5px solid #075985;
+    border-radius: 6px;
+}
+
+article h3 {
+    color: #075985;
+}
+
+/* Footer */
+
+footer {
+    background-color: #075985;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Keyboard accessibility */
+
+a:focus,
+button:focus,
+input:focus {
+    outline: 4px solid #facc15;
+    outline-offset: 2px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+/* Map */
+
+#map-container {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+

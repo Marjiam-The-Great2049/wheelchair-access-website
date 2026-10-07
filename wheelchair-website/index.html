@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wheelchair Access</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>♿ Wheelchair Access</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#places">Accessible Places</a>
+            <a href="#map">Map</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Find Wheelchair-Friendly Places</h2>
+
+            <p>
+                Find accessible places and facilities near you.
+            </p>
+
+            <input
+                type="search"
+                placeholder="Search accessible places..."
+                aria-label="Search accessible places">
+
+            <button onclick="searchPlaces()">Search</button>
+
+        </section>
+
+        <section id="places">
+
+            <h2>Accessible Places</h2>
+
+            <article>
+                <h3>🏥 Accessible Hospital</h3>
+                <p>
+                    Wheelchair ramp, accessible entrance
+                    and accessible toilet.
+                </p>
+            </article>
+
+            <article>
+                <h3>🍽️ Accessible Restaurant</h3>
+                <p>
+                    Step-free entrance and accessible seating.
+                </p>
+            </article>
+
+        </section>
+
+        <section id="map">
+
+    <h2>🗺️ Wheelchair Accessibility Map</h2>
+
+    <p>
+        Find wheelchair-friendly locations on the map.
+    </p>
+
+    <div id="map-container"></div>
+
+</section>
+
+
+    </main>
+
+    <footer id="contact">
+
+        <p>© 2026 Wheelchair Access</p>
+
+    </footer>
+    
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
